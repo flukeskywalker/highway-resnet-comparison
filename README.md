@@ -5,7 +5,7 @@ Comparison of 110-layer ResNets and HighwayNets on CIFAR-10, following [Identity
 TL;DR:
 > The paper Identity Mappings in Deep Residual Networks has design mistakes leading to incorrect conclusions about training deep networks with gated skip connections. You should try gated/weighted skip connections yourself and see if they improve results on your problems.
 
-See this [accompanying blog post]() for details.
+See this [accompanying blog post](https://rupeshks.cc/blog/skip.html) for details.
 
 
 Requirement: The only requirements are pytorch and torchvision (for CIFAR10). Original results used pytorch 2.5.1.
